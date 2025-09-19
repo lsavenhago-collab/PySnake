@@ -129,7 +129,7 @@ def draw_score(window, score):
 # Método finaliza o jogo exibindo a pontuação
 def finish_game(score, window):
     height, width = window.getmaxyx()
-    s = f'Você perdeu! Mas comeu {score} frutas!' # mensagem para o usuário
+    s = f'Você perdeu! Mas comeu {score} frutas!!' # mensagem para o usuário
 
     #posicionamento na tela da mensagem para o usuário
     y = int(height/2)
