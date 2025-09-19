@@ -130,9 +130,9 @@ def draw_score(window, score):
 def finish_game(score, window):
     height, width = window.getmaxyx()
     if score <= 0:
-        s = f'Você perdeu! Mas comeu {score} frutas!!' # mensagem para o usuário
-    else:
         s = 'Você perdeu e não comeu nenhuma fruta!'
+    else:
+        s = f'Você perdeu! Mas comeu {score} frutas!!' # mensagem para o usuário
 
     #posicionamento na tela da mensagem para o usuário
     y = int(height/2)
